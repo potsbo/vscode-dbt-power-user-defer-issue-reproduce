@@ -1,0 +1,7 @@
+foo:
+  outputs:
+    dev:
+      dataset: dbt
+      method: oauth
+      type: bigquery
+  target: dev

@@ -1,0 +1,12 @@
+{
+    "dbt.runModelCommandAdditionalParams": [
+        "--profiles-dir ."
+    ],
+    "dbt.deferConfigPerProject": {
+        "": {
+            "manifestPathForDeferral": "./target",
+            "manifestPathType": "local",
+            "deferToProduction": true
+        }
+    }
+}

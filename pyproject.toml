@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "vscode-dbt-power-user-defer-issue-reproduce"
+version = "0.1.0"
+description = ""
+authors = ["Shimpei Otsubo <potsbo@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+pyarrow = "^16.1.0"
+dbt-core = "^1.8.0"
+dbt-bigquery = "^1.8.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
